@@ -1,2 +1,2 @@
-<!--pages/blog/index.wxml-->
-<text>pages/blog/index.wxml</text>
+<!-- pages/blog/index.wxml -->
+<web-view src="{{ config.blogUrl }}" />

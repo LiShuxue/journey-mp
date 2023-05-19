@@ -1,2 +1,2 @@
-<!--pages/about/index.wxml-->
-<text>pages/about/index.wxml</text>
+<!-- pages/about/index.wxml -->
+<web-view src="{{ config.aboutUrl }}" />
