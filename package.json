@@ -1,0 +1,16 @@
+{
+  "name": "journey-mp",
+  "version": "1.0.0",
+  "scripts": {
+    "lint": "eslint --ext .js --ext .ts ."
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "pnpm lint"
+    }
+  },
+  "devDependencies": {
+    "eslint": "^8.40.0",
+    "husky": "^4.3.6"
+  }
+}

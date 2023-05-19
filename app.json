@@ -1,0 +1,35 @@
+{
+  "pages": ["pages/blog/index", "pages/category/index", "pages/about/index"],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Journey",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#6d6d6d",
+    "selectedColor": "#2192f5",
+    "list": [
+      {
+        "text": "博客",
+        "pagePath": "pages/blog/index",
+        "iconPath": "assets/images/blog.png",
+        "selectedIconPath": "assets/images/blog-selected.png"
+      },
+      {
+        "text": "分类",
+        "pagePath": "pages/category/index",
+        "iconPath": "assets/images/category.png",
+        "selectedIconPath": "assets/images/category-selected.png"
+      },
+      {
+        "text": "关于",
+        "pagePath": "pages/about/index",
+        "iconPath": "assets/images/about.png",
+        "selectedIconPath": "assets/images/about-selected.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
